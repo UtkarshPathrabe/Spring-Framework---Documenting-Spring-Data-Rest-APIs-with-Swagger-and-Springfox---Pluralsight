@@ -106,3 +106,10 @@ B. springfox-data-rest
 C. springfox-bean-validators  
 D. springfox-swagger2  
 Answer: `springfox-bean-validators`  
+
+Q12. If you are running two different versions of your API as two separate applications behind a load balancer, what do you need to do for Swagger to work?  
+A. Create a Swagger group for each version and export all versions to every Swagger UI.  
+B. Create multiple Docket objects for all versions of the API and run all versions in one Swagger UI.  
+C. Configure each application to generate Swagger from its own codebase, then have a Swagger UI running for each version of the application.  
+D. Swagger UI will NOT work behind a load balancer.  
+Answer: `Configure each application to generate Swagger from its own codebase, then have a Swagger UI running for each version of the application.`  
