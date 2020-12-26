@@ -46,4 +46,49 @@ A. Add `required=true` to `@ApiModelProperty`
 B. Remove the `@NotNull` annotation  
 C. Add a `@Required` annotation to `name`  
 D. The code as shown is correct. NO changes are needed.  
-Answer: ```Add `required=true` to `@ApiModelProperty````  
+Answer: Add `required=true` to `@ApiModelProperty`  
+
+Q07. If you want to partition your documentation, what property do you need to set?  
+A. `groupName` in `Docket`  
+B. `@EnableSwagger2WebMvc` on your configuration class  
+C. `apiInfo` in `Docket`  
+D. `@ApiOperation` on every method
+Answer: `groupName` in `Docket`  
+
+Q08. If you want to add additional information about entity values and have it displayed in the Swagger UI, what annotation do you need to use?  
+A. @ApiOperation  
+B. @ApiModelProperty  
+C. @EntityValue  
+D. @ApiValue  
+Answer: `@ApiModelProperty`  
+
+Q09. If you have a class named "Employee" and a property named "name", which option adds value to the documentation?  
+A.  
+```
+public class Employee {
+  @ApiModelProperty(value="First and last name")
+  public String name;
+```  
+B.  
+```
+public class Employee {
+  @ApiModelProperty(value="Employee name")
+  public String name;
+```  
+C.  
+```
+public class Employee {
+  public String name;
+```  
+D.  
+```
+public class Employee {
+  @ApiModelProperty(value="Name of Employee")
+  public String name;
+```  
+Answer:  
+```
+public class Employee {
+  @ApiModelProperty(value="First and last name")
+  public String name;
+```  
