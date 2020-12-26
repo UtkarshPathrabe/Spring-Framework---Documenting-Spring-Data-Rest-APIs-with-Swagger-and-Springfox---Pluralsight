@@ -92,3 +92,10 @@ public class Employee {
   @ApiModelProperty(value="First and last name")
   public String name;
 ```  
+
+Q10. What object do you need to modify if you want to change API level attributes in the Swagger UI? For example, title, version, description.  
+A. Docket  
+B. ApiProperties  
+C. SwaggerConfig  
+D. ApiInfo  
+Answer: `ApiInfo`  
