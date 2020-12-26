@@ -99,3 +99,10 @@ B. ApiProperties
 C. SwaggerConfig  
 D. ApiInfo  
 Answer: `ApiInfo`  
+
+Q11. What additional Springfox library is needed to generate Swagger information for JSR-303 annotations?  
+A. springfox-swagger-ui  
+B. springfox-data-rest  
+C. springfox-bean-validators  
+D. springfox-swagger2  
+Answer: `springfox-bean-validators`  
