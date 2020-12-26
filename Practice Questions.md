@@ -52,7 +52,7 @@ Q07. If you want to partition your documentation, what property do you need to s
 A. `groupName` in `Docket`  
 B. `@EnableSwagger2WebMvc` on your configuration class  
 C. `apiInfo` in `Docket`  
-D. `@ApiOperation` on every method
+D. `@ApiOperation` on every method  
 Answer: `groupName` in `Docket`  
 
 Q08. If you want to add additional information about entity values and have it displayed in the Swagger UI, what annotation do you need to use?  
